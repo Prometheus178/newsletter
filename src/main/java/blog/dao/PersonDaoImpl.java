@@ -1,7 +1,7 @@
-package dao;
+package blog.dao;
 
-import dao.interfaces.PersonDao;
-import model.Person;
+import blog.dao.interfaces.PersonDao;
+import blog.model.Person;
 
 public class PersonDaoImpl implements PersonDao {
     public void save(Person person) {

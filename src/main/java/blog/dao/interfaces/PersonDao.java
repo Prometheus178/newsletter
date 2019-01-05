@@ -1,6 +1,6 @@
 package blog.dao.interfaces;
 
-import model.Person;
+import blog.model.Person;
 
 public interface PersonDao {
     public void save(Person person);

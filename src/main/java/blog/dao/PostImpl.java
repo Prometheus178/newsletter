@@ -1,6 +1,6 @@
-package dao;
+package blog.dao;
 
-import dao.interfaces.Post;
+import blog.dao.interfaces.Post;
 
 import java.util.List;
 
