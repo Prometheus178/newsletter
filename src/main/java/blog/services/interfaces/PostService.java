@@ -1,8 +1,11 @@
-package blog.dao.interfaces;
+package blog.services.interfaces;
+
+import blog.dao.interfaces.Post;
 
 import java.util.List;
 
-public interface Post {
+public interface PostService {
+
     public void save(Post post);
     public void edit(long id);
     public void delete(long id);

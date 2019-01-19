@@ -4,7 +4,7 @@ import blog.dao.interfaces.Post;
 
 import java.util.List;
 
-public class PostImpl implements Post {
+public abstract class PostImpl implements Post {
 
     public void save(Post post) {
 

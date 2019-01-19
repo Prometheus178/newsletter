@@ -1,8 +1,8 @@
-package blog.dao.interfaces;
+package blog.services.interfaces;
 
 import blog.model.Person;
 
-public interface PersonDao {
+public interface PersonService {
 
     public void save(Person person);
     public void edit(long id);
