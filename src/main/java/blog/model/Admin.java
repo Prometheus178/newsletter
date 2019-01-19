@@ -7,7 +7,8 @@ public class Admin extends Person{
     private String email;
 
     public Admin(int id, String firstName, String email,String password) {
-        super(id, firstName, email);
+        super(id, email);
+        this.firstName = firstName;
         this.password = password;
     }
 

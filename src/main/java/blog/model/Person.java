@@ -2,12 +2,10 @@ package blog.model;
 
 public class Person {
     private int id;
-    private String firstName;
     private String email;
 
-    public Person(int id, String firstName, String email) {
+    public Person(int id, String email) {
         this.id = id;
-        this.firstName = firstName;
         this.email = email;
     }
 
@@ -20,14 +18,6 @@ public class Person {
 
     public void setId(int id) {
         this.id = id;
-    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
     }
 
     public String getEmail() {
