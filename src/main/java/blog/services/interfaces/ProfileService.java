@@ -1,6 +1,6 @@
 package blog.services.interfaces;
 
-import blog.model.Profile;
+import blog.models.Profile;
 
 import java.util.UUID;
 

@@ -1,10 +1,8 @@
 package blog.dao;
 
-import blog.dao.interfaces.Letter;
+import blog.dao.interfaces.LetterDao;
 
-import java.util.List;
-
-public abstract class LetterImpl implements Letter {
+public abstract class LetterImpl implements LetterDao {
 
 
 }

@@ -1,4 +1,4 @@
-package blog.model;
+package blog.models;
 
 public enum Gender {
 
