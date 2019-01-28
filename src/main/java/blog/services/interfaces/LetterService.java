@@ -8,8 +8,8 @@ import java.util.List;
 public interface LetterService {
 
     public void createLetter(Letter letter);
-    public void edit(long id);
-    public void sendLetter(long id);
-    public void delete(long id);
-    List<Letter> selectedLetters();
+    public void editLetter(long idLetter);
+    public void sendLetter(long idLetter);
+    public void deleteFromBase(long idLetter);
+    List<Letter> listLetters();
 }

@@ -5,22 +5,22 @@ import java.util.UUID;
 
 public class RegistrationProfile {
 
-    private UUID id;
+    private UUID idProfile;
     private String email;
     private String password;
     private LocalDate dateBirthday;
     private Gender gender;
 
-    public RegistrationProfile(UUID id, String email, String password, LocalDate dateBirthday, Gender gender) {
-        this.id = id;
+    public RegistrationProfile(UUID idProfile, String email, String password, LocalDate dateBirthday, Gender gender) {
+        this.idProfile = idProfile;
         this.email = email;
         this.password = password;
         this.dateBirthday = dateBirthday;
         this.gender = gender;
     }
 
-    public void setId(UUID id) {
-        this.id = id;
+    public void setIdProfile(UUID idProfile) {
+        this.idProfile = idProfile;
     }
 
     public void setEmail(String email) {
@@ -38,5 +38,4 @@ public class RegistrationProfile {
     public void setGender(Gender gender) {
         this.gender = gender;
     }
-
 }

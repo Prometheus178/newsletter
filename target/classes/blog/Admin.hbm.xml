@@ -4,7 +4,7 @@
     "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
 
-    <class name="blog.model.Admin" table="admin" schema="blogLetter">
+    <class name="blog.models.Admin" table="admin" schema="blogLetter">
         <id name="id" column="id"/>
         <property name="firstName" column="firstName"/>
         <property name="email" column="email"/>

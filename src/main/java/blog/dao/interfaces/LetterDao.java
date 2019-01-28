@@ -1,12 +1,14 @@
 package blog.dao.interfaces;
 
+import blog.models.Letter;
+
 import java.util.List;
 
 public interface LetterDao {
 
-    public void createLetter(LetterDao letter);
-    public void edit(long id);
-    public void sendLetter(long id);
-    public void delete(long id);
-    List<LetterDao> selectedLetters();
+    public void createLetter(Letter letter);
+    public void editLetter(long idLetter);
+    public void sendLetter(long idLetter);
+    public void deleteFromBase(long idLetter);
+    List<Letter> listLetters();
 }

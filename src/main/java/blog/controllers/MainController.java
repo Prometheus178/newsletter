@@ -14,6 +14,6 @@ public class MainController {
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public ModelAndView mainView(HttpSession session){
         WebApplicationContext context = WebApplicationContextUtils.getWebApplicationContext(session.getServletContext());
-         return new ModelAndView("index");
+         return new ModelAndView("main");
     }
 }
